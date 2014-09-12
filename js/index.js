@@ -96,7 +96,7 @@ $(document).ready(function(){
             '#reward_tips': 'zoomIn',
             '.gift': 'flipInY',
             '.tip': 'fadeIn',
-            '#answer': 'shake'
+            '#answer': 'zoomIn'
         };
 
         var $container = $('.current');
@@ -131,7 +131,7 @@ $(document).ready(function(){
         }
     });
 
-    var imgUrl = 'http://sunnyzhen.github.io/demo/calendar/images/calendar.jpg';
+    var imgUrl = 'https://raw.githubusercontent.com/miyukizhang/interview_project/master/img/interview.jpg';
     var lineLink = location.href;
     var descContent = "9月18日前，完成6道高难度面试单选题，丰厚大礼等你来拿";
     var shareTitle = document.title;

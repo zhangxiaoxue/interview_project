@@ -19,7 +19,7 @@ body{
     width: 100%;
     height: 100%;
     -webkit-transition: margin-top 0.3s ease;
-    /*margin-top: -1136px;*/
+    /*margin-top: -1008px;*/
 }
 .md{
     position: relative;
@@ -77,10 +77,10 @@ body{
     text-align: center;
 }
 .md_page_two .main{
-    height: 446px;
+    height: 424px;
     position: relative;
     top: 50%;
-    margin-top: -223px;
+    margin-top: -212px;
     /*-webkit-transform:scale(1.5);*/
 }
 .md_page_two .logo{
@@ -114,7 +114,7 @@ body{
 }
 .md_page_two .demand{
     position: relative;
-    margin: 0 auto 10px;
+    margin: 0 auto 15px;
     background: url(../img/demand.png) center no-repeat;
     background-size: cover;
     width: 219px;
@@ -143,7 +143,7 @@ body{
     background-size: cover;
     width: 320px;
     height: 100px;
-    margin: 0 auto 10px;
+    margin: 0 auto 15px;
 }
 .md_page_two .gifts{
     width: 280px;
@@ -158,7 +158,7 @@ body{
     background-size: cover;
     border: 2px solid #f5bf4f;
     width: 70px;
-    height: 50px;
+    height: 55px;
 }
 .md_page_two .gift_one{
     background-image: url(../img/gift.jpg);
@@ -172,13 +172,6 @@ body{
     background-image: url(../img/gift.jpg);
     background-position: 0 -110px;
 }
-.md_page_two .reward_tips{
-    background: url(../img/reward_tip.png) center no-repeat;
-    background-size: cover;
-    width: 262px;
-    height: 21px;
-    margin: 0 auto;
-}
 
 .md_page_three{
     background: url(../img/bg_2.jpg) center no-repeat;
@@ -186,14 +179,14 @@ body{
 }
 .md_page_three .main{
     position: relative;
-    height: 424px;
+    height: 440px;
     top: 50%;
-    margin-top: -212px;
+    margin-top: -220px;
 }
 .md_page_three .tips{
     width: 187px;
     height: 57px;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 .md_page_three .tip{
     background: center no-repeat;
@@ -215,60 +208,66 @@ body{
     background-size: cover;
     width: 320px;
     height: 304px;
-    margin: 0 auto 20px;
+    margin: 0 auto;
 }
 .md_page_three .answer{
     display: block;
     background: url(../img/answer.png) center no-repeat;
     background-size: cover;
-    width: 260px;
-    height: 22px;
+    width: 110px;
+    height: 32px;
+    margin: 0 auto 10px;
+}
+.md_page_three .reward_tips{
+    background: url(../img/reward_tip.png) center no-repeat;
+    background-size: cover;
+    width: 248px;
+    height: 27px;
     margin: 0 auto;
 }
 
 #eye{
-    -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: .75s;
+    -webkit-animation-delay: .25s;
 }
 #check_one{
-    -webkit-animation-duration: 0.5s;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-delay: .75s;
 }
 #check_two{
-    -webkit-animation-duration: 0.5s;
-    -webkit-animation-delay: 1.5s;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-delay: 1s;
 }
 #check_three{
-    -webkit-animation-duration: 0.5s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-delay: 1.25s;
 }
 #reward_detail{
     -webkit-animation-duration: .5s;
-    -webkit-animation-delay: 2s;
+    -webkit-animation-delay: 1.5s;
 }
 .gift{
     -webkit-animation-duration: 1.25s;
-    -webkit-animation-delay: 2.5s;
-}
-#reward_tips{
-    -webkit-animation-duration: .5s;
-    -webkit-animation-delay: 3s;
+    -webkit-animation-delay: 1.75s;
 }
 #tip_one{
-    -webkit-animation-duration: .75s;
+    -webkit-animation-duration: .5s;
 }
 #tip_two{
-    -webkit-animation-duration: .75s;
-    -webkit-animation-delay: .75s;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-delay: .25s;
 }
 #tip_three{
-    -webkit-animation-duration: .75s;
-    -webkit-animation-delay: 1.5s;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-delay: .5s;
 }
 #answer{
     -webkit-animation-duration: .75s;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-iteration-count: 2;
+    -webkit-animation-delay: .75s;
+}
+#reward_tips{
+    -webkit-animation-duration: .5s;
+    -webkit-animation-delay: 1.25s;
 }
 
 @media
